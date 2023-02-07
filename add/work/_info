@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/rimjhim/sv_uvm/add
+T_opt
+!s110 1675665622
+VXmO?H[OB>cfKJMIMf?W543
+04 2 4 work tb fast 0
+=1-842b2b6825b5-63e0a0d6-3a018-3a3f
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7d;67
+vfull_adder
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1675665621
+!i10b 1
+!s100 g1SdTRESJBX7AC9>nGGGa2
+IY6KI]9JR8GZHVBRNAFDje2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 add_sv_unit
+S1
+R0
+Z6 w1675664515
+Z7 8add.v
+Z8 Fadd.v
+L0 59
+Z9 OL;L;10.7d;67
+r1
+!s85 0
+31
+Z10 !s108 1675665620.000000
+Z11 !s107 add.v|add.sv|
+Z12 !s90 add.sv|+incdir+/home/rimjhim/sv_uvm/add/|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 +incdir+/home/rimjhim/sv_uvm/add/ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfull_adder_16
+R2
+R3
+!i10b 1
+!s100 ]G52^=A8ORWIIeTNDGX8]2
+IZkEYB5j1doZbn<JRFTgiG2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vhalf_adder
+R2
+R3
+!i10b 1
+!s100 >VV>N4AJ:AfmQ@<9IVo2E2
+I[ChMz>fz=k3laOZH0cZgK3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 71
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vripple_carry_4_bit
+R2
+R3
+!i10b 1
+!s100 05V?glTmDb1IoT@894?Cg3
+I21zm7mE]5jbG<M2c0D:5c1
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 43
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 nGo]]7?Ri6`@4iSZEc6kF0
+ImRzSc2<A?4@Vo40[E^nGb0
+R4
+R5
+S1
+R0
+w1675665080
+8add.sv
+Fadd.sv
+L0 2
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
