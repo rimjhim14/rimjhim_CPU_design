@@ -24,6 +24,7 @@ module top;
     
     //inp1 = 16'b0110100000000000;
     //inp2 = 16'b1110000000000000;
+    $display("///////////////////16 bit adder/////////////////");
     $monitor("f0 %0b opcode %0b inp1 %0d inp2 %0d cin %0d bin %0d out %0d out_wb %0d", f0,opcode,$signed(inp1),$signed(inp2),$signed(cin),$signed(bin),$signed(out),$signed(out_wb));
     #20 inp1 = 120;
     inp2 = 10;
@@ -34,6 +35,8 @@ module top;
     
     //inp1 = 16'b0110100000000000;
     //inp2 = 16'b1110000000000000;
+    $display("//////////////////16 bit subtractor/////////////////");
+
     $monitor("f0 %0b opcode %0b inp1 %0d inp2 %0d cin %0d bin %0d out %0d out_wb %0d", f0,opcode,$signed(inp1),$signed(inp2),$signed(cin),$signed(bin),$signed(out),$signed(out_wb));
     #30 inp1 = 120;
     inp2 = 10;
@@ -44,6 +47,8 @@ module top;
     
     //inp1 = 16'b0110100000000000;
     //inp2 = 16'b1110000000000000;
+    $display("//////////////////16 bit multiplier/////////////////");
+
     $monitor("f0 %0b opcode %0b inp1 %0d inp2 %0d cin %0d bin %0d out %0d out_wb %0d", f0,opcode,$signed(inp1),$signed(inp2),$signed(cin),$signed(bin),$signed(out),$signed(out_wb));
     #40 inp1 = 120;
     inp2 = 10;
@@ -54,6 +59,8 @@ module top;
     
     //inp1 = 16'b0110100000000000;
     //inp2 = 16'b1110000000000000;
+    $display("//////////////////16 bit division/////////////////");
+
     $monitor("f0 %0b opcode %0b inp1 %0d inp2 %0d cin %0d bin %0d out %0d out_wb %0d", f0,opcode,$signed(inp1),$signed(inp2),$signed(cin),$signed(bin),$signed(out),$signed(out_wb));
     end
 endmodule
