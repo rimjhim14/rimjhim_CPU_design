@@ -1,3 +1,4 @@
+//
 module bit_comparator(inp1,inp2,lt,gt,eq);
   input inp1,inp2;
   output lt,gt,eq;
