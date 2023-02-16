@@ -3,7 +3,7 @@
 `include "mul.sv"
 `include "div.sv"
 `include "mux_4x1.sv"
-`include "dmux_1x16.sv"
+`include "demux_1x16.sv"
 `include "rs1_dmux_1x4.sv"
 `include "rs2_dmux_1x4.sv"
 module top_cpu(f0,opcode_rd,rs1,rs2,cin,bin,out_wb);

@@ -1,4 +1,5 @@
-module tb;
+`include "design.sv"
+module top;
   wire [15:0] out;
   wire [15:0] out_wb [15:0];
   //reg [15:0] inp1, inp2;
@@ -9,9 +10,7 @@ module tb;
   // wire [15:0] out_inp1;
   // wire [15:0] out_inp2;
   
-  //top_cpu dut(f0,opcode,inp1,inp2,cin,bin,out,out_wb);
-  top_cpu dut(f0,opcode_rd,rs1,rs2,cin,bin,out_wb
-              );
+  top_cpu dut(f0,opcode_rd,rs1,rs2,cin,bin,out_wb );
   initial begin
     
     rs1 = 120;

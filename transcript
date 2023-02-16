@@ -1,6 +1,7 @@
 # vsim -c top -do "run -all;add wave; exit" 
-# Start time: 14:17:10 on Feb 16,2023
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Start time: 15:17:38 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: design.sv(27): (vopt-2241) Connection width does not match width of port 'r'. The port definition is at: div.sv(1).
 # //  Questa Sim-64
 # //  Version 10.7d linux_x86_64 Feb 15 2019
 # //
@@ -17,18 +18,13 @@
 # //
 # Loading sv_std.std
 # Loading work.top(fast)
+# Loading work.top_cpu(fast)
+# Loading work.Demux1x16(fast)
 # run -all
-# ///////////////////16 bit adder/////////////////
-# f0 0 opcode 1 inp1 120 inp2 10 cin 0 bin 0 out 130 out_wb 130
-# //////////////////16 bit subtractor/////////////////
-# f0 1 opcode 1 inp1 120 inp2 10 cin 0 bin 0 out 110 out_wb 110
-# //////////////////16 bit multiplier/////////////////
-# f0 10 opcode 1 inp1 120 inp2 10 cin 0 bin 0 out 1200 out_wb 1200
-# //////////////////16 bit division/////////////////
-# f0 11 opcode 1 inp1 120 inp2 10 cin 0 bin 0 out 12 out_wb 12
+# f0 0 opcode_rd 11  rs1 120 rs2 10 cin 0 bin 0  out z out_wb x x x x x x x x x x x x 130 x x x
 # add wave
 # wrong number of args for "add wave".
 # Usage: add wave [-allowconstants] [-clampanalog {0|1}] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-filter <f> | -nofilter <f>] [-format <type> | -<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-mvcall] [-mvcovm] [-mvcreccomplete] [-noupdate] [-numdynitem <int>] [-optcells] [-position <location>] [-queueends] [-radix <type> | -<radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-startdynitem <int>] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 ...}}] 
 #  exit
-# End time: 14:17:10 on Feb 16,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
+# End time: 15:17:38 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1

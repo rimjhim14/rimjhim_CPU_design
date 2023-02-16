@@ -7,91 +7,90 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/rimjhim/rim_cpu/rimjhim_CPU_design
+Z0 d/home/rimjhim/trial_cpu/rimjhim_CPU_design
 T_opt
-!s110 1675840980
-VQ8I^JzLOoGY;J9bfi^lU:3
+!s110 1676540858
+V88=hf5LaJkYW`=V<:iiLj0
 04 3 4 work top fast 0
-=1-842b2b6825b5-63e34dd4-52375-1619
+=1-842b2b6825b5-63edfbba-4c0e6-367a
 o-quiet -auto_acc_if_foreign -work work
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7d;67
-R0
 va4bitdiff
 Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z3 !s110 1675847958
+Z3 !s110 1676540857
 !i10b 1
 !s100 [?kY3ihGIHIYeQcK;9UE_2
-IC^?i^mzDoR]?QAdgK14=^1
+I^DzF;T8i7c1YKQh=4;jKE2
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 !s105 testbench_sv_unit
 S1
-Z6 d/home/rimjhim/trial_cpu/rimjhim_CPU_design
-Z7 w1675775821
-Z8 8sub.sv
-Z9 Fsub.sv
+R0
+Z6 w1675775821
+Z7 8sub.sv
+Z8 Fsub.sv
 L0 16
-Z10 OL;L;10.7d;67
+Z9 OL;L;10.7d;67
 r1
 !s85 0
 31
-Z11 !s108 1675847958.000000
-Z12 !s107 demux_1x16.sv|mux_4x1.sv|div.sv|mul.sv|sub.sv|add.sv|design.sv|testbench.sv|
-Z13 !s90 testbench.sv|+incdir+/home/rimjhim/rim_cpu/rimjhim_CPU_design/|
+Z10 !s108 1676540857.000000
+Z11 !s107 rs2_dmux_1x4.sv|rs1_dmux_1x4.sv|demux_1x16.sv|mux_4x1.sv|div.sv|mul.sv|sub.sv|add.sv|design.sv|testbench.sv|
+Z12 !s90 testbench.sv|+incdir+/home/rimjhim/trial_cpu/rimjhim_CPU_design/|
 !i113 0
-Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z15 !s92 +incdir+/home/rimjhim/rim_cpu/rimjhim_CPU_design/ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 +incdir+/home/rimjhim/trial_cpu/rimjhim_CPU_design/ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vand_gate
 R2
 R3
 !i10b 1
 !s100 9PD]1X5dTWVlNDCZ`8:zX1
-IBCZDXQ6>I`4V^F=N[`JWc1
+IWYzNjHl096K1]Oh>RhXzG0
 R4
 R5
 S1
+R0
 R6
 R7
 R8
-R9
 L0 53
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vDemux1x16
 R2
 R3
 !i10b 1
-!s100 dN7=mm43;hb7=4hf_`in12
-I_cFgJCBHVakgHJFQZnj>63
+!s100 W<oT[R2kR]b5z1SHhhc342
+I5>V1V6OdNzRHKX;ohZ2?W3
 R4
 R5
 S1
-R6
-R7
+R0
+w1676540849
 8demux_1x16.sv
 Fdemux_1x16.sv
 L0 1
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 n@demux1x16
 vdiv_16
@@ -99,175 +98,175 @@ R2
 R3
 !i10b 1
 !s100 na<4K?J93@d64Pbf1gQbY2
-I?R0YX6e_?AS>F@Mk^=l=70
+I_0Oa9cK3`QzET_CV`mVPl2
 R4
 R5
 S1
+R0
 R6
-R7
 8div.sv
 Fdiv.sv
 L0 1
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vfull_adder
 R2
 R3
 !i10b 1
 !s100 6M[hTlN1_MZ^mhbGd_LmA0
-I0im6<noHFf[agLFDG8h5d1
+I=_cz2ihdeJd52JGzSH8kI1
 R4
 R5
 S1
+R0
 R6
-R7
-Z16 8add.sv
-Z17 Fadd.sv
+Z15 8add.sv
+Z16 Fadd.sv
 L0 62
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vfull_adder_16
 R2
 R3
 !i10b 1
 !s100 =hD>aHaWM>`dQfYji4h0T0
-I;f[6E3TaXP]7_QaX]c6lS1
+IzEJ?McoU]EgGKB^L><5DH3
 R4
 R5
 S1
+R0
 R6
-R7
+R15
 R16
-R17
 L0 4
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vfull_sub_16
 R2
 R3
 !i10b 1
 !s100 NJlX1FEWi^J=C0`T@RZE30
-I3COP>`^fDh[]gR>]YCkhF1
+I<_>3lB:HHW?4>@R0B::3c0
 R4
 R5
 S1
+R0
 R6
 R7
 R8
-R9
 L0 1
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vfulldifftractor
 R2
 R3
 !i10b 1
 !s100 ngVfb^OHbOojMGFh@BcCK2
-I5X5[iLHEK]]NM`U=_Zzl60
+IVISiVIcz7[_^AIUS^AV<>2
 R4
 R5
 S1
+R0
 R6
 R7
 R8
-R9
 L0 29
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vhalf_adder
 R2
 R3
 !i10b 1
 !s100 Vd:6ZSXeoBcmS8@743id30
-I5bC[X2A?M8LU?CSc?iYfY1
+I:o6HiQMf8Gf;T85aZLn_f0
 R4
 R5
 S1
+R0
 R6
-R7
+R15
 R16
-R17
-Z18 L0 74
-R10
+Z17 L0 74
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vHalf_Subtractor
 R2
 R3
 !i10b 1
 !s100 EL9j5lfO`7@N=nTP:lIDC1
-IV7VKePN<D8K1ATb0Y`8gB0
+IAoUnfE974L?jH442cB5<=0
 R4
 R5
 S1
+R0
 R6
 R7
 R8
+R17
 R9
-R18
-R10
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 n@half_@subtractor
 vmul_16
@@ -275,198 +274,223 @@ R2
 R3
 !i10b 1
 !s100 I14X=kK2iPg7QzLBX;JYk3
-I?A5M4jhMEkI[LEFTG@Hoi1
+IYFga?NEGagJhi2b1;aSUb3
 R4
 R5
 S1
+R0
 R6
-R7
 8mul.sv
 Fmul.sv
 L0 1
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vmux4x1
 R2
 R3
 !i10b 1
 !s100 F0M102ccKgNX7JClfN`570
-IR1XR7Jm_R>D1hl6j4?6AK0
+IUSCd:;Q_1B]b=ZDCY]Gz@3
 R4
 R5
 S1
+R0
 R6
-R7
 8mux_4x1.sv
 Fmux_4x1.sv
 L0 1
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vnot_gate
 R2
 R3
 !i10b 1
 !s100 eVTSm@VLf^O]kYKj[eaib0
-I0lQ5HY@BA<e2m]YXNhMhR3
+I9N]a=B9I^`Pgd1^L28hQN1
 R4
 R5
 S1
+R0
 R6
 R7
 R8
-R9
 L0 63
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
 vripple_carry_4_bit
 R2
 R3
 !i10b 1
 !s100 bQ7zo=f3_;;@]Aczh8=MP2
-I`PD5B=ITE5E;@E2E<^;fj2
+IBFDYFGOAh_6R:TT8c@UoM3
 R4
 R5
 S1
+R0
 R6
-R7
+R15
 R16
-R17
 L0 46
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
-vtb
+vrs1dmux
 R2
-!s110 1676537228
+R3
 !i10b 1
-!s100 W`R99?bAmf_27;:IN>cfl3
-I7nY;o^ZGOcRWFAiWO5]703
+!s100 AGehSiW;0D]0FCaR?ZYDg2
+IYmRd8nWZbmeOY^Y>2OTiJ2
 R4
 R5
 S1
-R6
-w1676537214
-Z19 8testbench.sv
-Z20 Ftestbench.sv
+R0
+w1676536875
+8rs1_dmux_1x4.sv
+Frs1_dmux_1x4.sv
 L0 1
-R10
+R9
 r1
 !s85 0
 31
-!s108 1676537228.000000
-!s107 testbench.sv|
-R13
+R10
+R11
+R12
 !i113 0
+R13
 R14
-R15
+R1
+vrs2dmux
+R2
+R3
+!i10b 1
+!s100 KW_DXdCY0OC>;[`fEJ>S10
+IY3aXmg5PhAN60UF0b@XVg3
+R4
+R5
+S1
+R0
+w1676536921
+8rs2_dmux_1x4.sv
+Frs2_dmux_1x4.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
 R1
 vtop
 R2
 R3
 !i10b 1
-!s100 [n>aVb9al`Q556IRklA2B3
-IZ5BYOhE1YJ40NB`WDa8`<1
-R4
-R5
-S1
-R6
-w1675840971
-R19
-R20
-L0 2
-R10
-r1
-!s85 0
-31
-R11
-R12
-R13
-!i113 0
-R14
-R15
-R1
-vtop_cpu
-R2
-!s110 1675684885
-!i10b 1
-!s100 b4T5DDXciUC2UE7HIgH_60
-IQ8ROa;RABE^_zePdcYS[73
+!s100 O?=1<zXFUXE>nhNG0m6dN0
+IdD8K:]Jfbf;zQJ]Im25eH0
 R4
 R5
 S1
 R0
-w1675684406
-8design.sv
-Fdesign.sv
-L0 7
-R10
+w1676540230
+8testbench.sv
+Ftestbench.sv
+L0 2
+R9
 r1
 !s85 0
 31
-!s108 1675684885.000000
+R10
+R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
+R1
+vtop_cpu
+R2
+R3
+!i10b 1
+!s100 5VMF4UVP0LkoBn^z4oh;;3
+IPm@Lmh7=YM]nfOjmieY>U0
+R4
+R5
+S1
+R0
+w1676540465
+8design.sv
+Fdesign.sv
+L0 9
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
 R1
 vxor_gate
 R2
 R3
 !i10b 1
 !s100 4I0I<]ZFF_>00P3aTODJf1
-In1^4?mOEJQ6k]_G7BF6`K3
+IkK1]L1T92:P6Y9?DMLRAl0
 R4
 R5
 S1
+R0
 R6
 R7
 R8
-R9
 L0 43
-R10
+R9
 r1
 !s85 0
 31
+R10
 R11
 R12
-R13
 !i113 0
+R13
 R14
-R15
 R1
