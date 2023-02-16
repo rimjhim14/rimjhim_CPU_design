@@ -1,5 +1,5 @@
 # vsim -c top -do "run -all;add wave; exit" 
-# Start time: 14:49:19 on Feb 08,2023
+# Start time: 14:17:10 on Feb 16,2023
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # //  Questa Sim-64
 # //  Version 10.7d linux_x86_64 Feb 15 2019
@@ -30,5 +30,5 @@
 # wrong number of args for "add wave".
 # Usage: add wave [-allowconstants] [-clampanalog {0|1}] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-filter <f> | -nofilter <f>] [-format <type> | -<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-mvcall] [-mvcovm] [-mvcreccomplete] [-noupdate] [-numdynitem <int>] [-optcells] [-position <location>] [-queueends] [-radix <type> | -<radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-startdynitem <int>] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 ...}}] 
 #  exit
-# End time: 14:49:19 on Feb 08,2023, Elapsed time: 0:00:00
+# End time: 14:17:10 on Feb 16,2023, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
